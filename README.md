@@ -2,14 +2,14 @@
 
 ## Task 1: Functions
 
- - 1.a Create a sketch and name it Task1. Write a void setup()-method in the sketch.
+ - 1.a Create a sketch and name it <b>Task1</b>. Write a <code>void setup()</code>-method in the sketch.
 
- - 1.b Write a method that prints "Hello from the method" and call it from setup();
+ - 1.b Write a method that prints <i>"Hello from the method"</i> and call it from <code>setup()</code>
 
- - 1.c Write a method that receives a String as a parameter and prints it. 
-    Call this method from setup()
+ - 1.c Write a method that receives a <code>String</code> as a parameter and prints it. 
+    Call this method from <code>setup()</code>
 
- - 1.d Write a method that receives a String as a parameter called "name" and an integer as a parameter called "age" and call it from setup with your own name and age. Have the method print the text "My name is \<name\>, I am \<age\> years old".
+ - 1.d Write a method that receives a <code>String</code> as a parameter called "name" and an <code>int</code> as a parameter called "age". Call the new method from <code>setup</code> with your own name and age. Have the method print the text <i>"My name is \<name\>, I am \<age\> years old"</i>.
 
 
 ---
