@@ -44,25 +44,25 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 
 - 3.b Create a new tab called "Teacher" and another one called "Student". You should now see three new files in your sketch folder, called Datamatik.pde, Teacher.pde and Student.pde.
 
-- 3.c In the Student tab, declare the class "Student" and add 4 instance variables: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
+- 3.c In the Student tab, declare the class <code>Student</code> and add 4 instance variables: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
 
-- 3.d In the Student class, add a constructor that takes in 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" with the same data types used for instance variables in 3.c
+- 3.d In the <code>Student</code> class, add a constructor that takes 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" and each with the same data types used for the instance variables in 3.c
 
-- 3.e In the constructor, assign the values of the parameters to the instance variables created in 3.c. 
+- 3.e In the <code>Student</code> constructor, assign the values of the parameters to the instance variables created in 3.c. 
 
-- 3.f In the Teacher tab, declare the class "Teacher" and add 3 instance variables: "name", "age", "isFemale", using appropriate data types for each.
+- 3.f In the Teacher tab, declare the class <code>Teacher</code> and add 3 instance variables: "name", "age", "isFemale", using appropriate data types for each.
 
-- 3.g In the Teacher class, add a constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same datatypes used in 3.f
+- 3.g In the <code>Teacher</code> class, add a constructor that takes 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same datatypes used in 3.f
 
 - 3.h Populate the variables created in 3.f with the parameters of the constructor added in 3.g (this means that you assign the value of the parameters to the variables, like you did in 3.e)
 
-- 3.i Returning to the Datamatik tap, add a setup() function and in this method create a new object/instance of the type Teacher and give it the name, age and gender of your teacher. 
+- 3.i Returning to the Datamatik tab, add a <code>setup()</code> function and in this method create a new object/instance of the type <code>Teacher</code> and give it the name, age and gender of your teacher. 
 
-- 3.j Also in the setup() function of Datamatik, create two new objects/instances of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of a student in your study group. 
+- 3.j Also in the <code>setup()</code> function of Datamatik, create two new objects/instances of the type <code>Student</code>. The first one, with your own name, age and gender. The second one with the name, age and gender of a student in your study group. 
 
-- 3.k in the setup() function print the name of the teacher
+- 3.k in the <code>setup()</code> function print the name of the teacher
 
-- 3.l in the setup() function print the names of both students and which teams they are from. 
+- 3.l in the <code>setup()</code> function print the names of both students and which teams they are from. 
 
 
 ---
@@ -70,11 +70,11 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 ## Task 4: Functions and objects
 Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
-- 4.a In the Teacher class, make a method called changeName. The method should have the returntype void and take a String newName as parameter. The method should change the instance variable name to the newName given as argument to the method when called. 
+- 4.a In the <code>Teacher</code> class, make a method called <code>changeName</code>. The method should have the return type void and take a <code>String</code> called newName as parameter. The method should change the instance variable name to the newName given as argument to the method when called. 
  
-- 4.b In your setup() function from 3.i you must now change the name of your Teacher-object, by calling the method changeName() with a new name.
+- 4.b In your <code>setup()</code> function from 3.i you must now change the name of your <code>Teacher</code> object, by calling the method <code>changeName()</code> with a new name.
 
-- 4.c Print the name of the teacher in the setup() function again to see if it has changed. 
+- 4.c Print the name of the teacher in the <code>setup()</code> function again to see if it has changed. 
 
 
 ---
@@ -82,11 +82,11 @@ Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from
 ## Task 5:  Compare attribute values of to objects
 Create a new sketch for Task5 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
 
-- 5.a In your tab Datamatik, make a new method called isClassmates(). The method should take two Student objects as parameters. The method  should return a boolean. 
+- 5.a In your tab Datamatik, make a new method called <code>isClassmates()</code>. The method should take two <code>Student</code> objects as parameters. The method  should return a boolean. 
 
-- 5.b Make your method return true, if the team-variable of one of the Student has the same value as the team-variable of the other Student given as argument to the method. For example, if both Students are on team "DAT1" or team 1 (depending on which data type you have used for the instance variable team), the method should return true. If they are not on the same team, the method should return false.
+- 5.b Make your method return true, if the team-variable of one of the Student has the same value as the team-variable of the other Student given as argument to the method. For example, if both Students are on team "DAT1" or team "1" (depending on which data type you have used for the instance variable team), the method should return true. If they are not on the same team, the method should return false.
 
-- 5.c From your setup() function in Datamatik, call the method isClassmates() with two Student-objects. Make sure that you assign the returnvalue to a variable in the setup()-method. From setup() print "<Student-name> and <Student-name> are classmates" is they are on the same team and "<Student-name> and <Student-name> are not classmates" if they are not. 
+- 5.c From your setup() function in Datamatik, call the method <code>isClassmates()</code> with two <code>Student</code> objects. Make sure that you assign the return value to a variable in the <code>setup()</code> method. From <code>setup()</code> print <i>"<Student-name> and <Student-name> are classmates"</i> is they are on the same team and <i>"<Student-name> and <Student-name> are not classmates"</i> if they are not. 
 
 ---
 
