@@ -23,15 +23,15 @@
 - 2.c Write a method that receives a String and returns it as uppercase. 
 <details>
   <summary>Hint</summary>
-  <p>Use the String-method <code>toUpperCase()</code>code> on your <code>String<c/ode>. Notice that <code>toUpperCase()</code>code> has a <code>String</code>code> as return type </p>
+  <p>Use the String-method <code>toUpperCase()</code> on your <code>String</code>. Notice that <code>toUpperCase()</code> has a <code>String</code> as return type </p>
 </details>
 
 - 2.d Write a method that receives a <code>String</code> and returns <code>true</code> if the first letter of the <code>String</code> is upper case. 
 <details>
   <summary>Hint</summary>
-  <p>Use the <code>String</p>code> method <code>charAt(0)</code>code> and <code>Character.isUpperCase('a')</code>code> </p>
+  <p>Use the <code>String</code></p>method <code>charAt(0)</code> and <code>Character.isUpperCase('a')</code> </p>
 </details>
-- 2.e Call your new methods from <code>setup()</code>code>. In <code>setup()</code>code>, make sure the return values of the methods are assigned to variables of the right data type. Print out the variables - still from setup.
+- 2.e Call your new methods from <code>setup()</code>. In <code>setup()</code>, make sure the return values of the methods are assigned to variables of the right data type. Print out the variables - still from setup.
 
 
 ---
