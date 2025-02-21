@@ -2,7 +2,7 @@
 
 ## Task 1: Functions
 
- - 1.a Create a sketch and name it <b>Task1</b>. Write a <code>void setup()</code>-method in the sketch.
+ - 1.a Create a sketch and name it <b>Task1</b>. Write a ```void setup()```-method in the sketch.
 
  - 1.b Write a method that prints <i>"Hello from the method"</i> and call it from <code>setup()</code>
 
@@ -69,7 +69,7 @@ Small Processing-hack: If you have more than one tab and you get the error messa
 ---
 
 ## Task 4: Functions and objects
-Create a new sketch, Task4 and copy the files Datamatik.pde and Student.pde from the folder Task3 to the folder Task5.
+Create a new sketch, Task4 and copy the files Datamatik.pde and Teacher.pde from the folder Task3 to the folder Task4.
 
 - 4.a In the <code>Teacher</code> class, make a method called <code>changeName</code>. The method should have the return type void and take a <code>String</code> called newName as parameter. The method should change the instance variable name to the newName given as argument to the method when called. 
  
